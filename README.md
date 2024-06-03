@@ -1,11 +1,18 @@
 # Maze.js
+
 这是一个使用递归分割算法实现的简单 JavaScript 迷宫生成器。该生成器将迷宫生成为一个字符的二维数组，其中 `' '` 表示通道，`'#'` 表示墙壁。
 
 ## 使用方法
 
 要使用迷宫生成器，请按照以下步骤进行：
 
-1. **实例化迷宫**：通过提供所需的宽度、高度和种子（可选）来创建 `Maze` 类的实例。例如：
+1. **安装依赖项**：确保已安装 `seedrandom`。您可以通过 npm 安装它：
+
+   ```bash
+   npm install seedrandom
+   ```
+
+2. **实例化迷宫**：通过提供所需的宽度、高度和种子（可选）来创建 `Maze` 类的实例。例如：
 
    ```javascript
    const seedrandom = require('seedrandom');
@@ -18,20 +25,20 @@
    const maze = new Maze(35, 20, randomSeed.toString());
    ```
 
-2. **生成迷宫**：调用迷宫实例的 `generate()` 方法来生成迷宫。
+3. **生成迷宫**：调用迷宫实例的 `generate()` 方法来生成迷宫。
 
    ```javascript
    maze.generate();
    ```
 
-3. **显示迷宫**：使用 `toString()` 方法获取迷宫的字符串表示形式。
+4. **显示迷宫**：使用 `toString()` 方法获取迷宫的字符串表示形式。
 
    ```javascript
    console.log('迷宫:');
    console.log(maze.toString());
    ```
 
-4. **获取唯一标识符**：如果需要，您可以获取用于生成迷宫的唯一标识符（种子）。
+5. **获取唯一标识符**：如果需要，您可以获取用于生成迷宫的唯一标识符（种子）。
 
    ```javascript
    console.log('迷宫唯一标识符:', randomSeed);
