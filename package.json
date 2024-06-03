@@ -1,0 +1,19 @@
+{
+  "name": "Maze-js",
+  "version": "1.0.0",
+  "description": "使用递归分割算法实现的简单迷宫生成器",
+  "main": "Maze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "迷宫",
+    "生成器",
+    "算法"
+  ],
+  "author": "MengZe2",
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}
