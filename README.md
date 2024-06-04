@@ -3,13 +3,19 @@
 这是一个使用递归分割算法实现的简单 JavaScript 迷宫生成器。该生成器将迷宫生成为一个字符的二维数组，其中 `' '` 表示通道，`'#'` 表示墙壁。
 
 ## 使用方法
-
-要使用迷宫生成器，请按照以下步骤进行：
-
+首先得安装项目，克隆版仓库：
+```shell
+git clone https://github.com/MengZeMC/Maze.js
+```
+然后进入项目目录：
+```shell
+cd Maze.js
+```
+开始使用项目：
 1. **安装依赖项**：确保已安装 `seedrandom`。您可以通过 npm 安装它：
 
    ```bash
-   npm install seedrandom
+   npm i
    ```
 
 2. **实例化迷宫**：通过提供所需的宽度、高度和种子（可选）来创建 `Maze` 类的实例。例如：
