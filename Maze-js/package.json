@@ -1,6 +1,6 @@
 {
   "name": "Maze-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用递归分割算法实现的简单迷宫生成器",
   "main": "Maze.js",
   "scripts": {
