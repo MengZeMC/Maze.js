@@ -1,3 +1,4 @@
+[English](https://github.com/MengZeMC/Maze.js/main/README-EN.md)
 # Maze.js
 
 这是一个使用递归分割算法实现的简单 JavaScript 迷宫生成器。该生成器将迷宫生成为两个emoji的二维数组。
